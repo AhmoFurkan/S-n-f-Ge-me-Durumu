@@ -42,14 +42,14 @@ Eğer girilen ders notları 0 veya 100 arasında değil ise hesablanmaz
                             } else if (avarage < 55) {
                                 System.out.println("Kaldınız !" + avarage);
                             }
-                        }
-                    }
+                        }else System.out.println("Hesablanmaz");
+                    }else System.out.println("Hesablanmaz");
 
-                }
+                }else System.out.println("Hesablanmaz");
 
-            }
+            }else System.out.println("Hesablanmaz");
 
-        }
+        }else System.out.println("Hesablanmaz");
       
 
 
